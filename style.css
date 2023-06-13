@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+
+}
+nav{
+    list-style: none;
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+text-align: center;
+
+}
+
+nav ul li{
+    display: inline-block;
+     
+
+}
+nav ul li a{
+    color: white;
+    padding: 13px 25px;
+    display: block;
+    margin: 5px 0;
+    border-radius: 5px;
+    border-radius: 8px 0px 8px 8px;
+    transition: .3s;
+}
+nav ul li:hover a{
+    background-color: mediumslateblue;
+}
+nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0px;
+}
+.submanue{
+    position: absolute;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 50px;
+    transition: .5s;
+}
+.submanue li{
+    display: block;
+}
+.submanue li a{
+    background-color: white;
+    color: black;
+}
+.submanue li:hover a{
+    background-color: black;
+    color: blue;
+}
